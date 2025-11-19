@@ -1,0 +1,42 @@
+Fundamentos do JavaScript
+
+JS não e Java 
+
+O nome da linguagem JavaScript é Ecma
+ECMAScript: Em 1996, a Netscape e a Sun Microsystems (que detinha a marca Java na época) se associaram à ECMA (European Computer Manufacturers Association) para padronizar a linguagem. Como o nome "JavaScript" já era uma marca registrada da Sun (e posteriormente da Oracle), a especificação oficial da linguagem foi nomeada como ECMAScript
+
+
+É possivel executar o JS diretamente  no navegador de internet
+
+O JavaScript pode ser utilizado também fora do navegador de internet com uso da plataforma node.
+
+Particularidades da linguagem (sintaxe básica)
+
+1) No JavaScript não usamos o conseito de linha e sim de senteça.
+2) ; e opcional
+3) Podemos usar "" ou '' (Não pode misturar) (dica usar "" para textos e '' para importações)
+4) No JavaScript só existem 3 tipos de variaveis (string, number e boolean)
+-string (caracteres)
+-number (números inteiros e não inteiros)
+-boolean (vardadeiro ou falso)
+5) No JavaScript as variaveis são dinamicamente tipadas, ou seja o tipo é determinado quando um valor e atribuído.
+----------------------------------------------------
+
+JavaScript no Front-end
+<script></script>
+
+<script src="script.js"></script>
+
+html --- js
+
+IMPORTANTE! Sempre vincular um documento JS antes do fechamento da tag </body>, pois o JS trava a executação do html se tiver erros.
+
+--------------------------------
+
+let= criação de uma variavel.
+
+----------------------------------------
+
+dica de canal: tiger codes
+ 
+---------------------------------------
