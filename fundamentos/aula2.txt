@@ -1,0 +1,31 @@
+let // Criar um variavel
+const // criar uma constante 
+
+Strings 
+No Javasript temos bibloteca e metados para trabalhar com as váriaveis dinâmicamentes tipadas 
+.replace("Y" , "y")  //Troca uma caractere por outro
+
+//Concatenação: Não usar o "+" para concatenar um texto com váriaveis, existe a possibilidade de resultado ser diferente devido a tipagem dinâmica.
+
+
+Números >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Number.isInteger //verifica se um número e inteiro ou não inteiro 
+(True or False)
+.toFixed(2) //fromatar em 2 casa decimal
+Nan (Not a Number)
+
+O JavaScript automaticamente determina uma variavel do tipo numérica não inteira precisa de alta precisão
+
+ATENÇÃO !!!!
+obsoleto:
+var //Criação de variavel
+== // igual a 
+!= // diferente de
+
+substituir por
+let // Criação de variavel
+=== // identico a 
+!== //não identico a 
+
+ATENÇÃO!!!
+No JavaScript podemos omitir as chaves na estruturas de controle, porém só uma linha de código e processada na estrutura
