@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+body {
+    background-color: rgb(245, 158, 216);
+    font-family: sans-serif;
+}
+
+button {
+    padding: 10px 30px;
+    background-color: rgb(228, 55, 150);
+    border: 1px solid #000;
+    border-radius: 25px;
+    font-size: 1.2rem;
+}
+
+.carta {
+    width: 250px;
+    height: 350px;
+    background-color: #ffff;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    /* Sombra */
+    box-shadow: rgba(0,0,0, 0.4) 3px 5px 6px;
+    /* position 
+        fixed: fixa o elemento no documento 
+        relative: referencia para o absoluto 
+        absoluto: fixa o elemento com refêrencia ao relative 
+
+        Neste exemplo os elementos absolute vãoposicionar na calsse carta e não classe container ou no documento
+    */
+    position: relative; 
+}
+
+.canto {
+    position: absolute;
+    font-size: 2rem;
+    text-align: center;
+}
+
+#supEsq {
+    top: 20px;
+    left: 15px;
+}
+
+#infDir {
+    bottom: 25px;
+    right: 15px;
+    transform: rotate(180deg);
+}
+
+.centro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    font-size: 6rem;
+}
