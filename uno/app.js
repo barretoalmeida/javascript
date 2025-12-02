@@ -4,5 +4,6 @@
  */
 
 function sortear() {
-    let = jogar = Math.floor(Math.random() * 5)
+    let = jogar = Math.floor(Math.random() * 6)
+
 }
