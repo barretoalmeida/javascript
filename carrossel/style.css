@@ -1,0 +1,24 @@
+* {   
+    margin: 0;
+    padding: 0;
+}
+/* o * aplica a todos o site o tamanho */
+
+.conteiner {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* Efeito fade manipulado pelo  JS (O JS vai adicinar essa classe de nome)*/
+#slides.fadeout {
+    opacity: 0.1; /* Ajuste */
+}
+
+#slides {
+    transition: opacity 2s; /* Ajuste junto com o JS*/
+    opacity: 1;
+}
